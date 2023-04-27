@@ -21,7 +21,7 @@ class DateFinder(object):
     Locates dates in a text
     """
 
-    def __init__(self, base_date=None, first="month"):
+    def __init__(self, base_date=None, first="day"):
         self.base_date = base_date
         self.dayfirst = False
         self.yearfirst = False
